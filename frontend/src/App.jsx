@@ -1,14 +1,8 @@
-import Home from "./pages/Home";
-
 import "./App.css";
+import PokemonCard from "./components/PokemonCard";
 
 function App() {
-  return (
-    <div className="App">
-      <Home />
-      <p>coucou</p>
-    </div>
-  );
+  return <PokemonCard />;
 }
 
 export default App;
